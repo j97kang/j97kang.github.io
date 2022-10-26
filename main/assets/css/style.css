@@ -5,11 +5,11 @@ body {
 }
 
 a {
-  color: #156b12;
+  color: #08adfa;
 }
 
 a:hover {
-  color: #156b12;
+  color: #08adfa;
   text-decoration: none;
 }
 
@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #156b12;
+  border: 6px solid #08adfa;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   color: #fff;
-  background: #156b12;
+  background: #08adfa;
 }
 
 .nav-menu a:hover span, .nav-menu .active > a span, .nav-menu li:hover > a span {
@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #156b12;
+  color: #08adfa;
 }
 
 
@@ -249,7 +249,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #156b12;
+  background: #08adfa;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -279,7 +279,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #156b12;
+  color: #08adfa;
 }
 
 .about .content p:last-child {
@@ -304,7 +304,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: #156b12;
+  background: #08adfa;
   padding: 12px;
   color: #fff;
   border-radius: 50px;
@@ -356,7 +356,7 @@ section {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #156b12;
+  background-color: #08adfa;
 }
 
 
