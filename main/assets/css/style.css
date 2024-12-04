@@ -224,6 +224,7 @@ section {
 
 .section-title h2 {
   font-size: 32px;
+  text-align: center;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -236,6 +237,7 @@ section {
   content: '';
   position: absolute;
   display: block;
+  text-align: center;
   width: 120px;
   height: 1px;
   background: #ddd;
@@ -248,6 +250,7 @@ section {
   position: absolute;
   display: block;
   width: 40px;
+  text-align: center;
   height: 3px;
   background: #08adfa;
   bottom: 0;
@@ -332,7 +335,10 @@ section {
   display: block;
   background: none;
 }
-
+.skills-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
 .skills .progress .skill {
   padding: 10px 0;
   margin: 0 0 6px 0;
@@ -359,6 +365,20 @@ section {
   background-color: #08adfa;
 }
 
+.skills-content, .inspiration-content {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* If you want items stacked vertically */
+  text-align: center;
+  margin: 0 auto;
+}
+
+.skills-content .progress, .inspiration-content .progress {
+  width: 80%; /* Adjust width as needed for centering */
+  margin: 0 auto;
+}
 
 
 /*--------------------------------------------------------------
@@ -499,6 +519,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials .section-header {
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .testimonials .testimonial-item {
