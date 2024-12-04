@@ -572,31 +572,30 @@ section {
   }
 }
 
+/* General alignment for all sections */
+section {
+  text-align: center;
+}
 
-/* General container centering for sections */
 section > .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Skills and Inspirations specific styling */
+#skills .section-title, #Inspirations .section-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#skills .container, #Inspirations .container {
+  max-width: 800px; /* Adjust for narrower content */
+  margin: 0 auto;
   text-align: center;
 }
 
-/* Skills section centering */
-#skills {
+.testimonials-carousel .testimonial-item {
   text-align: center;
-}
-
-#skills .container {
-  max-width: 1200px;
   margin: 0 auto;
 }
-
-/* Inspiration section centering */
-#Inspirations {
-  text-align: center;
-}
-
-#Inspirations .container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
