@@ -573,4 +573,30 @@ section {
 }
 
 
+/* General container centering for sections */
+section > .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Skills section centering */
+#skills {
+  text-align: center;
+}
+
+#skills .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Inspiration section centering */
+#Inspirations {
+  text-align: center;
+}
+
+#Inspirations .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
